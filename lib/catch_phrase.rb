@@ -1,13 +1,5 @@
-phrase = "It"
+name = "Mario"
 
-def catch_phrase
-  puts phrase
+def catch_phrase(name)
+  puts "It's-a me, #{name}!"
 end
-
-evil_monster = "Bowser"
- 
-def princess_peaches_castle(evil_monster)
-  puts "#{evil_monster} is trying to kidnap Princess Peach!"
-end
- 
-princess_peaches_castle(evil_monster)
